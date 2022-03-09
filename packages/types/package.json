@@ -3,7 +3,7 @@
     "@repo/config": "*",
     "@repo/helpers": "*",
     "@repo/types": "*",
-    "eslint": "8.10.0",
+    "eslint": "^8.10.0",
     "http-errors": "^2.0.0"
   },
   "name": "@repo/types",
