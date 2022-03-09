@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "@repo/config": "*",
     "@repo/helpers": "*",
     "@repo/types": "*",
@@ -11,8 +11,8 @@
   },
   "name": "@repo/helpers",
   "scripts": {
-    "lint": "eslint api i18n",
-    "lint:fix": "eslint --fix api i18n"
+    "lint": "eslint api",
+    "lint:fix": "eslint --fix api"
   },
   "version": "0.0.0"
 }

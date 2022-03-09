@@ -1,12 +1,3 @@
 {
-  "extends": "../config/.eslintrc.js.json",
-  "overrides": [
-    {
-      "extends": "../config/.eslintrc.ts.json",
-      "files": [
-        "*.ts",
-        "*.tsx"
-      ]
-    }
-  ]
+  "extends": "../config/.eslintrc.base.json"
 }
