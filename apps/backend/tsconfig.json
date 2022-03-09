@@ -1,0 +1,24 @@
+{
+  "extends": "../../packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "esnext"
+    ],
+    "module": "commonjs",
+    "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@repo/*": [
+        "../../packages/*"
+      ]
+    },
+    "target": "es2019"
+  },
+  "include": [
+    "env.d.ts",
+    "src"
+  ]
+}

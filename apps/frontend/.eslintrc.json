@@ -1,0 +1,6 @@
+{
+  "extends": "../../packages/config/.eslintrc.ts.json",
+  "ignorePatterns": [
+    "dist"
+  ]
+}
