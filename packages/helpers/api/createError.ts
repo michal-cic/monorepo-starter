@@ -7,7 +7,7 @@ import _createError from 'http-errors';
 type CreateError = (
   code: number,
   message: string,
-  properties: ExtendedHttpErrorProperties
+  properties: ExtendedHttpErrorProperties,
 ) => ExtendedHttpError;
 
 const createError: CreateError = (code, message, properties) =>

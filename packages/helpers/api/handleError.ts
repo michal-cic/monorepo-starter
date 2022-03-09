@@ -1,9 +1,6 @@
 import { createResponse } from '@repo/helpers/api/createResponse';
 import { isExtendedHttpError } from '@repo/types/api/errors';
-import type {
-  ApiFieldError,
-  ExtendedHttpError,
-} from '@repo/types/api/errors';
+import type { ApiFieldError, ExtendedHttpError } from '@repo/types/api/errors';
 
 const handleError = (error: Error | ExtendedHttpError) => {
   let errors: ApiFieldError[] = [];

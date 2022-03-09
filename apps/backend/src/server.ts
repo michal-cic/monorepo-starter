@@ -1,13 +1,8 @@
-// eslint-disable-next-line import/order
-import dotenv from 'dotenv';
+import 'dotenv/config';
 
-dotenv.config();
-
-/* eslint-disable import/first */
 import http from 'node:http';
 
 import { app } from '@/app';
-/* eslint-enable import/first */
 
 const server = http.createServer(app);
 

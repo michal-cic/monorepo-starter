@@ -71,7 +71,8 @@
       "error",
       {
         "jsxSingleQuote": true,
-        "singleQuote": true
+        "singleQuote": true,
+        "trailingComma": "all"
       }
     ],
     "require-unicode-regexp": "off",

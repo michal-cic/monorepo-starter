@@ -22,7 +22,7 @@ const isApiFieldError = (object: {
 };
 
 const isExtendedHttpError = (
-  error: Error | HttpError
+  error: Error | HttpError,
 ): error is ExtendedHttpError => {
   return (
     isHttpError(error) &&
