@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "directus": "^9.5.0",
     "dotenv": "^16.0.0",
     "express": "4.17.3",
     "helmet": "^5.0.2",
@@ -21,8 +22,8 @@
   },
   "name": "@repo/backend",
   "scripts": {
+    "dev": "directus start",
     "build": "rm -rf dist/* && esbuild src/server.ts --bundle --minify --legal-comments=none --platform=node --outfile=dist/server.js",
-    "dev": "nodemon --watch \"src/**\" --exec ts-node -r tsconfig-paths/register src/server.ts",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src"
   },
